@@ -21,5 +21,6 @@ test:
 production:
   <<: *default
   adapter: postgresql
+  database: protospace_38911_production
   url: <%= ENV['DATABASE_URL'] %>
   
